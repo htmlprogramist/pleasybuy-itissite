@@ -1,0 +1,146 @@
+h1 {
+  font-size: 50px;
+  color: red;
+}
+p{
+  font-size: 30px;
+  color: white;
+}
+.class1 {
+    
+}
+
+
+nav {
+  width: 100vw;
+  height: 5vh;
+  margin-top: 5vh;
+  display: flex;
+
+
+}
+
+.box{
+  background: url(kiler.jpeg);
+  height: 100vh;
+
+}
+
+
+.logo {
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 5vw;
+  color: red;
+
+}
+
+.logo:hover {
+  color: white;
+  transition: 1s;
+
+}
+
+ul {
+  width: 55vw;
+  height: 5vh;
+  text-align: center;
+  margin-left: 35vh;
+}
+ul li {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  color: white; 
+}
+ul li:hover {
+  color: wheatfont-size: 25px;
+  transition: 1s;
+  border-bottom: solid 1px white;
+}
+body{
+  background: url(black.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 960;
+  margin: 0 auto;
+}
+
+nav:before {
+  content: '';
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #000;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+ul li {
+  float: left;
+
+}
+
+ul li a{
+  color: #fff;
+  display: block;
+  height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+ul li a:hover {
+  background: #d34d43;
+}
+
+.btn {
+
+background-color: RoyalBlue;
+
+border: none;
+
+color: white;
+
+padding: 15px 30px;
+
+font-size: 16px;
+
+cursor: pointer;
+
+}
+
+/* Изменение цвета при наведении */
+
+.btn:hover {
+
+background-color: red;
+
+}
+
+/* Цвет обводки при нажатии */
+
+button.btn:active, button.btn:focus {
+
+outline-color: #333cff;
+
+}
+
+button.btn::-moz-focus-inner {
+
+outline-color: #333cff;
+
+}
